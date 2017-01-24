@@ -1,0 +1,7 @@
+FROM spotify/alpine
+
+ADD ui-tests.sh .
+
+RUN chmod +x ./ui-tests.sh
+
+CMD ./ui-tests.sh
