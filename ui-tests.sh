@@ -1,5 +1,5 @@
 #!/bin/sh
-sleep 5
+sleep 30
 if curl helloworld | grep -q '<p>This is a website to demonstrate CI with Docker</p>'; then
   echo "UI test passed!"
   exit 0
